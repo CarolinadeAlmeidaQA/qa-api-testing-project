@@ -21,7 +21,7 @@ GET https://jsonplaceholder.typicode.com/users/1
 ---
 
 ## Evidence
-![GET User Success](/.evidence/api-get-user-200.png)
+![GET User Success](/evidence/api-get-user-200.png)
 
 ---
 
