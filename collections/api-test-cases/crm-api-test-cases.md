@@ -24,25 +24,10 @@ POST
 ### Expected Result
 Appointment is created successfully and returned in response payload.
 
----
-
-## TC-API-003 - Missing required field validation
-
-### Method
-POST
-
-### Endpoint
-/appointments
-
-### Test Scenario
-Send request without required customer ID.
-
-### Expected Result
-API returns validation error with appropriate status code.
 
 ---
 
-## TC-API-004 - Invalid authentication token
+## TC-API-003 - Invalid authentication token
 
 ### Method
 GET
