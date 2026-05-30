@@ -1,0 +1,39 @@
+# API Evidence - Create User (POST)
+
+## Test Case
+Create new resource via API
+
+## Endpoint
+POST https://jsonplaceholder.typicode.com/posts
+
+---
+
+## Request Body
+{
+  "title": "QA Test Execution",
+  "body": "Creating a new post to simulate API testing scenario",
+  "userId": 1
+}
+
+---
+
+## Expected Result
+- Status code: 201 Created
+- Resource successfully created
+- Response contains generated ID
+
+---
+
+## Actual Result
+- Status code: 201 Created
+- Resource created successfully with returned ID
+
+---
+
+## Evidence
+![POST Create Success](./evidence/api-post-create-201.png)
+
+---
+
+## Conclusion
+API successfully handles resource creation and returns expected response structure.
